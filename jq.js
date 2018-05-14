@@ -10,6 +10,9 @@ $(document).ajaxError(function(e, jqXHR, settings, exception) {
 	    case 200:
 	        alert("200 OK!");
 	        break;
+	    case 400:
+	    	alert("400 Bad Request");
+	    	break;
 	    case 403:
 	    	alert("403 Forbidden");
 	    	break;
